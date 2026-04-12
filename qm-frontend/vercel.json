@@ -2,15 +2,15 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-api-gateway-url.onrender.com/api/:path*"
+      "destination": "https://deplouapi-service.onrender.com/api/:path*"
     },
     {
       "source": "/auth/:path*",
-      "destination": "https://your-api-gateway-url.onrender.com/auth/:path*"
+      "destination": "https://deplouapi-service.onrender.com/auth/:path*"
     },
     {
       "source": "/login/:path*",
-      "destination": "https://your-api-gateway-url.onrender.com/login/:path*"
+      "destination": "https://deplouapi-service.onrender.com/login/:path*"
     }
   ]
 }
