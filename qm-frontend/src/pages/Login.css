@@ -1,0 +1,165 @@
+/* Login.css */
+.login-root {
+  height: 100vh;
+  background-color: #8a8a8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+  display: flex;
+  width: 850px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Left Side */
+.login-header {
+  flex: 1;
+  background: #f0f7ff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.btn-back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: none;
+  background: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.logo {
+  font-size: 4rem;
+  background: white;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.login-header h1 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #222;
+}
+
+.tagline {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Right Side */
+.login-form-container {
+  flex: 1.2;
+  padding: 50px;
+  background: white;
+}
+
+.tab-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab.active {
+  color: #a4303f;
+  border-bottom: 3px solid #a4303f;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.field input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background: #a4303f;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #999;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.divider span { padding: 0 10px; }
+
+.btn-github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
