@@ -1,24 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "https://api-gateway-qk46.onrender.com/api/$1"
+      "source": "/api/:path*",
+      "destination": "https://your-api-gateway-url.onrender.com/api/:path*"
     },
     {
-      "source": "/auth/(.*)",
-      "destination": "https://api-gateway-qk46.onrender.com/auth/$1"
+      "source": "/auth/:path*",
+      "destination": "https://your-api-gateway-url.onrender.com/auth/:path*"
     },
     {
-      "source": "/login/(.*)",
-      "destination": "https://api-gateway-qk46.onrender.com/login/$1"
-    },
-    {
-      "source": "/oauth2/(.*)",
-      "destination": "https://api-gateway-qk46.onrender.com/oauth2/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/login/:path*",
+      "destination": "https://your-api-gateway-url.onrender.com/login/:path*"
     }
   ]
 }
