@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://api-gateway-REPLACE_ME.onrender.com/api/:path*"
+      "destination": "https://api-gateway-amazon.onrender.com"
     },
     {
       "source": "/auth/:path*",
-      "destination": "https://api-gateway-REPLACE_ME.onrender.com/auth/:path*"
+      "destination": "https://api-gateway-amazon.onrender.com"
     },
     {
       "source": "/login/:path*",
-      "destination": "https://api-gateway-REPLACE_ME.onrender.com/login/:path*"
+      "destination": "https://api-gateway-amazon.onrender.com"
     },
     {
       "source": "/oauth2/:path*",
-      "destination": "https://api-gateway-REPLACE_ME.onrender.com/oauth2/:path*"
+      "destination": "https://api-gateway-amazon.onrender.com"
     }
   ]
 }
