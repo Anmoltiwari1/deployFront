@@ -33,7 +33,7 @@ export default function Login({ onLogin, onBack }) {
   };
 
   const handleGitHub = () => {
-    window.location.href = "http://localhost:8080/oauth2/authorization/github";
+    window.location.href = "/oauth2/authorization/github";
   };
 
   // ── Render ────────────────────────────────────────────────────────────────
